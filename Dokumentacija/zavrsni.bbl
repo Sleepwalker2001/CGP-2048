@@ -1,0 +1,51 @@
+\begin{thebibliography}{7}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Cirulli(2018{\natexlab{a}})]{2048official}
+Gabriele Cirulli.
+\newblock play2048, 2018{\natexlab{a}}.
+\newblock URL \url{https://play2048.co/}.
+
+\bibitem[Cirulli(2018{\natexlab{b}})]{2048og}
+Gabriele Cirulli.
+\newblock 2048, 2018{\natexlab{b}}.
+\newblock URL \url{https://github.com/gabrielecirulli/2048}.
+
+\bibitem[Kalkreuth et~al.(2017)Kalkreuth, Rudolph, i Droschinsky]{newcross}
+Roman Kalkreuth, G{\"u}nter Rudolph, i Andre Droschinsky.
+\newblock A new subgraph crossover for cartesian genetic programming.
+\newblock U James McDermott, Mauro Castelli, Lukas Sekanina, Evert Haasdijk, i
+  Pablo Garc{\'i}a-S{\'a}nchez, urednici, \emph{Genetic Programming}, stranice
+  294--310, Cham, 2017. Springer International Publishing.
+\newblock ISBN 978-3-319-55696-3.
+
+\bibitem[Miller i Smith(2006)]{geneticredundancy}
+J.F. Miller i S.L. Smith.
+\newblock Redundancy and computational efficiency in cartesian genetic
+  programming.
+\newblock \emph{IEEE Transactions on Evolutionary Computation}, 10\penalty0
+  (2):\penalty0 167--174, 2006.
+\newblock \doi{10.1109/TEVC.2006.871253}.
+
+\bibitem[Miller(2011)]{CGPbook}
+Julian~F. Miller.
+\newblock \emph{Cartesian Genetic Programming}.
+\newblock Springer, 2011.
+\newblock URL \url{https://doi.org/10.1007/978-3-642-17310-3_2}.
+
+\bibitem[Miller(2014)]{CGPpresentation}
+Julian~F. Miller.
+\newblock Ppsn 2014 tutorial: Cartesian genetic programming, 2014.
+\newblock URL
+  \url{https://cs.ijs.si/ppsn2014/files/slides/ppsn2014-tutorial3-miller.pdf}.
+
+\bibitem[Poli et~al.(2008)Poli, Langdon, i McPhee]{fieldguidtoGP}
+Riccardo Poli, William~B. Langdon, i Nicholas~F. McPhee.
+\newblock \emph{A Field Guide to Genetic Programming}.
+\newblock Lulu Enterprises, 2008.
+
+\end{thebibliography}

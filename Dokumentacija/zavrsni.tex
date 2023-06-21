@@ -1,0 +1,82 @@
+\documentclass[times, utf8, zavrsni, numeric]{fer}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{pdfpages}
+\graphicspath{ {./resursi/slike} }
+\begin{document}
+
+% TODO: Navedite broj rada.
+\thesisnumber{848}
+
+% TODO: Navedite naslov rada.
+\title{Igranje igre \textit{2048} korištenjem Kartezijevog genetskog programiranja}
+
+% TODO: Navedite vaše ime i prezime.
+\author{Paulo Erak}
+
+\maketitle
+
+% Ispis stranice s napomenom o umetanju izvornika rada. Uklonite naredbu \izvornik ako želite izbaciti tu stranicu.
+\includepdf[pages=-]{hr_0036532743_73.pdf}
+
+% Dodavanje zahvale ili prazne stranice. Ako ne želite dodati zahvalu, naredbu ostavite radi prazne stranice.
+\zahvala{\par Zahvaljujem se mentoru doc. dr. sc. Marku Đuraseviću što je vrlo ugodnom radnom atmosferom, savjetima, preporukama literature i strpljenjem uvelike olakšao izradu ovog završnog rada.\par
+	Zahvaljujem se majci, ocu, bratu Jakovu i svoj svojoj obitelji na konstantnoj potpori i bodrenju u svemu što sam radio. \par
+	Zahvaljujem se svim svojim prijateljima koji su bili uz mene i koji su mi bili velika potpora kroz cijeli preddiplomski studij, a i prije njega.\par
+	Bez ovih ljudi ne bih bio tu gdje jesam i tko jesam. Uistinu veliko hvala.\newline
+	
+	}
+
+\tableofcontents
+
+\chapter{Uvod}
+\input{uvod}
+
+\chapter{Igra 2048}
+\input{2048}
+
+\chapter{Genetsko programiranje}
+\input{genetsko_programiranje}
+
+\chapter{Kartezijevo genetsko programiranje}
+\input{cgp}
+
+\chapter{Dobrota i selekcija}
+\input{selekcija}
+
+\chapter{Križanje}
+\input{krizanje}
+
+\chapter{Mutacija}
+\input{mutacija}
+
+\chapter{Implementacija}
+\input{implementacija}
+
+\chapter{Rezultati}
+\input{rezultati}
+
+\chapter{Zaključak}
+\input{zakljucak}
+
+\bibliography{literatura}
+\bibliographystyle{fer}
+
+\begin{sazetak}
+Cilj ovog rada je stvoriti agenta ili populaciju agenata koji će naučiti igrati igru 2048. Učenje se provodi korištenjem Kartezijevog genetskog programiranja. U sklopu ovog rada obrađuju se koncepti genetskog programiranja, Kartezijevog genetskog programiranja, razvoja agenata kroz generacije, izlaže se implementacija rada u programskom jeziku Java, prikazuju se rezultati testiranja implementacije, diskutiraju se dobiveni rezultati i predlažu se potencijalna poboljšanja.
+
+\kljucnerijeci{Igra 2048, genetski algoritam, genetsko programiranje, Kartezijevo genetsko programiranje}
+\end{sazetak}
+
+% TODO: Navedite naslov na engleskom jeziku.
+\engtitle{Playing the 2048 game using Cartesian genetic programming}
+\begin{abstract}
+The goal of this thesis is to create an agent or a population of agents that will learn to play the game 2048. The learning is performed using Cartesian genetic programming. As part of this work, the concepts of genetic programming, Cartesian genetic programming and the development of agents through generations are discussed, the implementation of the work in Java programming language and the results of implementation testing are presented, the obtained results are discussed and potential improvements are proposed.
+
+\keywords{Game 2048, genetic algorithm, genetic programming, Cartesian genetic programming}
+\end{abstract}
+
+\end{document}

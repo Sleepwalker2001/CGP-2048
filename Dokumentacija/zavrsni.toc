@@ -1,0 +1,28 @@
+\babel@toc {croatian}{}\relax 
+\contentsline {chapter}{\numberline {1}Uvod}{1}{}%
+\contentsline {chapter}{\numberline {2}Igra 2048}{2}{}%
+\contentsline {section}{\numberline {2.1}Originalna igra \textit {2048}}{2}{}%
+\contentsline {section}{\numberline {2.2}Verzija igre korištena u radu}{4}{}%
+\contentsline {chapter}{\numberline {3}Genetsko programiranje}{7}{}%
+\contentsline {chapter}{\numberline {4}Kartezijevo genetsko programiranje}{11}{}%
+\contentsline {section}{\numberline {4.1}CGP Mreže}{11}{}%
+\contentsline {section}{\numberline {4.2}Čvorovi mreže}{12}{}%
+\contentsline {section}{\numberline {4.3}Genotip i fenotip}{14}{}%
+\contentsline {section}{\numberline {4.4}CGP kao niz brojeva}{15}{}%
+\contentsline {section}{\numberline {4.5}Inicijalizacija programa/populacije}{16}{}%
+\contentsline {section}{\numberline {4.6}Izvođenje programa}{17}{}%
+\contentsline {chapter}{\numberline {5}Dobrota i selekcija}{18}{}%
+\contentsline {section}{\numberline {5.1}Dobrota}{18}{}%
+\contentsline {section}{\numberline {5.2}Selekcija}{19}{}%
+\contentsline {chapter}{\numberline {6}Križanje}{22}{}%
+\contentsline {chapter}{\numberline {7}Mutacija}{24}{}%
+\contentsline {chapter}{\numberline {8}Implementacija}{26}{}%
+\contentsline {section}{\numberline {8.1}Osnovne informacije}{26}{}%
+\contentsline {section}{\numberline {8.2}Programi}{26}{}%
+\contentsline {section}{\numberline {8.3}Pokretanje treniranja}{27}{}%
+\contentsline {section}{\numberline {8.4}Igranje igre}{29}{}%
+\contentsline {section}{\numberline {8.5}Selekcija i križanje}{30}{}%
+\contentsline {section}{\numberline {8.6}Mutacija}{31}{}%
+\contentsline {chapter}{\numberline {9}Rezultati}{33}{}%
+\contentsline {chapter}{\numberline {10}Zaključak}{38}{}%
+\contentsline {chapter}{Literatura}{39}{}%
